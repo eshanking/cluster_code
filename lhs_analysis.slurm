@@ -10,7 +10,7 @@ pwd; hostname; date
 
 module load python
 
-python /cluster_code/addpath.py
-python /seascapes_figures/experiments/latin_hypercube_analysis.py
+python /home/esk81/cluster_code/addpath.py
+python /home/esk81/seascapes_figures/experiments/latin_hypercube_analysis.py
 
 date
