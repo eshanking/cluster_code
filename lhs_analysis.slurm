@@ -8,9 +8,8 @@
 #SBATCH --output=serial_test_%j.log   # Standard output and error log
 pwd; hostname; date
 
-module load python
+module load python/3.7.0
 
-python /home/esk81/cluster_code/addpath.py
 python /home/esk81/seascapes_figures/experiments/latin_hypercube_analysis.py
 
 date
