@@ -9,6 +9,7 @@
 pwd; hostname; date
 
 module load python/3.7.0
+pip install -r /home/esk81/cluster_code/requirements.txt
 
 python /home/esk81/seascapes_figures/experiments/latin_hypercube_analysis.py
 
